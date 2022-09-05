@@ -1,0 +1,378 @@
+
+.carousel-home {
+    margin: 1rem 2rem!important;
+}
+.carousel-home {
+    margin: 0 1rem 2rem;
+}
+
+.home-top {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden!important;
+}
+
+.home-intro-text {
+    margin-bottom: 1rem;
+}
+
+.home-intro-text span {
+    font-family: OS-semibold,sans-serif;
+    font-size: 1.25rem;
+    color: #000;
+}
+
+
+
+.home-intro-text strong {
+    color: #0078ac!important;
+    font-family: OS-bold,sans-serif;
+    font-size: 1.25rem;
+}
+
+
+
+
+
+.label{
+    font-family: OS-regular, sans-serif;
+    font-size: 1rem;
+
+}
+
+.carousel-home .carousel img {
+    width: 100%;
+    height: 400px!important;
+    max-height: 400px!important;
+    border-radius: 1rem!important;
+}
+
+
+.category-title {
+    margin: 1rem;
+}
+
+.category-title h2{
+    font-family: OS-bold, sans-serif;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+@media only screen and (min-device-width: 1064px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1){
+.product-cat-div {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0.5rem;
+    padding: 0;
+    align-items: center!important;
+    justify-content: center!important;
+    margin-left: 2rem!important;
+}}
+
+@media only screen and (min-width: 600px) and (max-device-width: 768px){
+.product-cat-div {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0.5rem;
+    padding: 0;
+    align-items: center!important;
+    justify-content: center!important;
+    margin-left: 2rem!important;
+}}
+
+@media screen and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1){
+.product-cat-div {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0.5rem;
+    padding: 0;
+    align-items: center!important;
+    justify-content: center!important;
+    margin-left: 2rem!important;
+}}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1064px) and (-webkit-min-device-pixel-ratio: 1){
+.product-cat-div {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr!important;
+    grid-gap: 0.5rem;
+    padding: 0;
+    align-items: center!important;
+    justify-content: center!important;
+    margin-left: 2rem!important;
+}}
+
+@media (max-width: 450px){
+.product-cat-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center!important;
+    align-items: center;
+}}
+
+.product-cat-div {
+    padding: 0!important;
+}
+
+@media screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1){
+.hm-product {
+    width: 190px !important;
+    height: 200px!important;
+    transition: -webkit-transform .2s;
+    transition: transform .2s;
+    transition: transform .2s,-webkit-transform .2s;
+}}
+
+.hm-product {
+    background: #eaeaef;
+    border-radius: 1rem;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    height: 13rem;
+    max-height: 13rem!important;
+    margin-bottom: 0.7rem;
+    width: 96%;
+    transition: -webkit-transform .2s;
+    transition: transform .2s;
+    transition: transform .2s,-webkit-transform .2s;
+}
+
+a {
+    text-decoration: none!important;
+    color: inherit!important;
+}
+
+.cat-img-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center!important;
+    justify-content: center!important;
+    margin-top: 0.75rem;
+}
+
+button, div, p, span {
+    font-family: "GilroyMedium",sans-serif;
+}
+
+
+@media screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1){
+.hm-product img {
+    width: 55%!important;
+    height: 100px!important;
+    padding: 5px;
+}}
+
+.hm-product img {
+    width: 55%!important;
+    height: 100px!important;
+    padding: 5px;
+}
+
+.img-fluid, .img-thumbnail {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1){
+.hm-product h4 {
+    color: #0078ac;
+    font-size: 1rem!important;
+    font-family: OS-bold,sans-serif;
+    margin-bottom: 0;
+    padding: 0 15px;
+    margin-top: 0.75rem;
+}}
+
+.hm-product h4 {
+    color: #0078ac;
+    font-size: 1.15rem!important;
+    font-family: OS-bold,sans-serif;
+    margin-bottom: 0;
+    padding: 0 15px;
+}
+
+.cat-img-wrapper h4 {
+    text-align: center;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+@media screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1){
+.hm-product p {
+    color: #0f0309;
+    font-family: OS-regular,sans-serif;
+    font-size: .8rem;
+    margin: 0;
+    padding: 0 15px;
+    margin-bottom: 1rem!important;
+}}
+
+
+@media screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1){
+.carousel-home .carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 0;
+    object-fit: contain!important;
+}}
+
+@media (max-width: 375px){
+.carousel-home .carousel {
+    width: 100%;
+    height: 170px;
+    max-height: 170px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 0;
+    border-radius: 0.85rem 0.85rem 0.85rem 0.85rem!important;
+    background-color: #eaeaef;
+}}
+
+.carousel {
+    position: relative;
+    width: 100%;
+}
+
+@media screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1){
+.carousel-home .carousel-indicators {
+    position: absolute;
+    /* top: 50vh!important; */
+}}
+
+.carousel-home .carousel-indicators {
+    position: absolute;
+    /* top: 24vh; */
+    margin-bottom: 0;
+}
+
+@media (max-width: 420px){
+.carousel-home .carousel-indicators {
+    position: absolute;
+    /* top: 23vh!important; */
+}}
+
+@media (max-width: 375px){
+.carousel-home .carousel-indicators {
+    position: absolute;
+    /* top: 24vh!important; */
+
+}}
+
+@media (max-width: 375px){
+.carousel-home .carousel img {
+    width: 100%!important;
+    height: 170px!important;
+    max-height: 170px!important;
+    border-radius: 0.85rem 0.85rem 0.85rem 0.85rem!important;
+}}
+
+@media screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1){
+.carousel-home .carousel, .carousel-home .carousel img {
+    width: 100%;
+    height: 400px!important;
+    max-height: 400px!important;
+    border-radius: 1rem!important;
+}}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 450px) and (-webkit-min-device-pixel-ratio: 1){
+.carousel-home .carousel img {
+    width: 100%!important;
+    height: 200px!important;
+    max-height: 200px!important;
+    border-radius: 0.85rem 0.85rem 0.85rem 0.85rem!important;
+}}
+
+@media screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1){
+.carousel-div-desktop {
+    display: block!important;
+}}
+
+@media screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1){
+.carousel-div {
+    display: none!important;
+}}
+
+.carousel-home {
+    margin: 0 1rem 2rem;
+}
+
+.carousel-home {
+    margin: 1rem 2rem!important;
+}
+
+
+@media only screen and (min-device-width: 1064px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1){
+.other-brands-carousel {
+    display: none;
+}}
+
+@media screen and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1){
+.other-brands-carousel {
+    display: none;
+}}
+
+.other-brands-carousel {
+    margin: 2rem 1rem 1rem;
+}
+
+.other-brands-carousel h2 {
+    font-family: OS-bold,sans-serif;
+    font-size: 1.5rem;
+}
+
+.other-brands-carousel .carousel {
+    width: 100%;
+    height: 100px;
+    margin-top: 1rem;
+}
+
+.other-brands-carousel .carousel-indicators {
+    display: none;
+}
+
+.other-brands-carousel .carousel-item {
+    width: 100%;
+    height: 100px;
+}
+
+.other-brands-carousel .carousel-item img {
+    object-fit: contain!important;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    padding-top: 1.75rem;
+}
+
+.carousel img {
+    width: 100%;
+    display: inline-block;
+    pointer-events: none;
+}
+
+@media screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1){
+body {
+    font-size: 20px;
+    overflow-x: hidden;
+}}
+
+.carousel-div-desktop {
+    display: none;
+}
